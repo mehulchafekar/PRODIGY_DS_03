@@ -33,20 +33,26 @@ Checked for missing values and duplicates, and ensured data quality.
 Visualized data distributions:
 Histograms for numerical data.
 Count plots for categorical data using Seaborn.
+
 **2. Outlier Detection and Removal**
 Used box plots to identify outliers in numerical columns.
 Calculated quartiles (Q1, Q3) and removed data outside acceptable bounds using the IQR method.
+
 **3. Feature Correlation Analysis**
 Created a heatmap to visualize correlations between numerical features.
 Dropped highly correlated features to avoid multicollinearity.
+
 **4. Data Preprocessing**
 Encoded categorical variables using LabelEncoder.
 Split the dataset into training and testing sets using train_test_split.
+
 **5. Model Building**
 Trained a Decision Tree Classifier with parameters like criterion='gini', max_depth=5, and min_samples_split=10.
 Evaluated the model using accuracy, confusion matrix, and classification report.
+
 **6. Hyperparameter Tuning**
 Optimized the model with criterion='entropy' and adjusted max_depth and min_samples_split to improve accuracy.
+
 **7. Model Visualization**
 Visualized the decision tree structure using plot_tree, highlighting feature importance and decision-making paths.
 
